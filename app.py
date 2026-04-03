@@ -98,6 +98,26 @@ def get_projects():
             'icon': 'chart-line',
             'impact': 'Reduce troubleshooting time by 70%',
             'keyFeatures': ['Real-time Monitoring', 'Automated Reports', 'Device Diagnostics', 'Data Export']
+        },
+        {
+            'id': 7,
+            'category': 'Mobile IoT Apps',
+            'title': 'IoT Mobile Application (Flutter)',
+            'description': 'Mobile app untuk IoT device monitoring dan control menggunakan Flutter dengan native Dart backend. Seamless integration dengan TCP socket server, real-time data updates via WebSocket, offline functionality dengan local SQLite caching. Support untuk multiple device types dengan adaptive responsive UI.',
+            'technologies': ['Flutter', 'Dart', 'WebSocket', 'SQLite', 'REST API', 'Real-time Data'],
+            'icon': 'mobile',
+            'impact': '95% user adoption rate',
+            'keyFeatures': ['Real-time Updates', 'Offline Mode', 'Multi-device Support', 'Responsive Design']
+        },
+        {
+            'id': 8,
+            'category': 'Thesis & Mentoring',
+            'title': 'Campus IoT Projects & Thesis Mentoring',
+            'description': 'Technical mentoring dan development guidance untuk 30+ student thesis projects spanning IoT, AI, dan embedded systems. Covering full IoT stack dari device prototyping, backend development, system architecture, hingga production deployment. Demonstrating best practices dalam technical problem solving, system design, dan operational excellence.',
+            'technologies': ['IoT Architecture', 'System Design', 'Python', 'Embedded Systems', 'Best Practices'],
+            'icon': 'graduation-cap',
+            'impact': '30+ successful projects completed',
+            'keyFeatures': ['System Architecture', 'Best Practices', 'Problem Solving', 'Production Ready']
         }
     ]
     return jsonify(projects)
